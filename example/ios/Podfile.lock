@@ -1,0 +1,44 @@
+PODS:
+  - Flutter (1.0.0)
+  - PINCache (2.3)
+  - PINOperation (1.1.1)
+  - snapchat_flutter_plugin (0.0.1):
+    - Flutter
+    - SnapSDK
+  - SnapSDK (1.3.1):
+    - SnapSDK/SCSDKBitmojiKit (= 1.3.1)
+    - SnapSDK/SCSDKCreativeKit (= 1.3.1)
+    - SnapSDK/SCSDKLoginKit (= 1.3.1)
+  - SnapSDK/SCSDKBitmojiKit (1.3.1):
+    - PINCache (< 3.1, >= 2.3)
+    - PINOperation (~> 1.1)
+  - SnapSDK/SCSDKCreativeKit (1.3.1)
+  - SnapSDK/SCSDKLoginKit (1.3.1)
+
+DEPENDENCIES:
+  - Flutter (from `.symlinks/flutter/ios`)
+  - snapchat_flutter_plugin (from `.symlinks/plugins/snapchat_flutter_plugin/ios`)
+  - SnapSDK
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - PINCache
+    - PINOperation
+    - SnapSDK
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: ".symlinks/flutter/ios"
+  snapchat_flutter_plugin:
+    :path: ".symlinks/plugins/snapchat_flutter_plugin/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 9d0fac939486c9aba2809b7982dfdbb47a7b0296
+  PINCache: ce36ed282031b92fc7733ffe831f474ff80fddc2
+  PINOperation: a6219e6fc9db9c269eb7a7b871ac193bcf400aac
+  snapchat_flutter_plugin: ef93610677aeab11e77c3ba1f8f8bc8d90a5ecd6
+  SnapSDK: be510aaabbfa7ab0142b53770f2e79c6c6b363e6
+
+PODFILE CHECKSUM: 58c641d85bf158aabb9882e8b57da3397d6c8dbc
+
+COCOAPODS: 1.5.3

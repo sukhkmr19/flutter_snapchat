@@ -78,9 +78,7 @@ public class SwiftSnapchatFlutterPlugin: NSObject, FlutterPlugin {
     
     
     private func logout(){
-        SCSDKLoginClient.unlinkAllSessions { (isLogout) in
-            print("Logout")
-        }
+        SCSDKLoginClient.clearToken()
     }
     
 }

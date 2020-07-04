@@ -156,6 +156,7 @@ For Logout
 
 return type is dynamic
 
+Thanks https://github.com/palkerecsenyi for removing the deprecated method.
 
 ## Getting Started
 
